@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7404511ECAD9AA0014ACC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404501ECAD9AA0014ACC5 /* AppDelegate.swift */; };
+		1A7404531ECAD9AA0014ACC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404521ECAD9AA0014ACC5 /* ViewController.swift */; };
+		1A7404561ECAD9AA0014ACC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7404541ECAD9AA0014ACC5 /* Main.storyboard */; };
+		1A7404581ECAD9AA0014ACC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7404571ECAD9AA0014ACC5 /* Assets.xcassets */; };
+		1A74045B1ECAD9AA0014ACC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7404591ECAD9AA0014ACC5 /* LaunchScreen.storyboard */; };
+		1A7404661ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404651ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift */; };
+		1A7404711ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404701ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A7404621ECAD9AA0014ACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7404451ECAD9AA0014ACC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A74044C1ECAD9AA0014ACC5;
+			remoteInfo = "EPCPhotoMobile-CompressionDemo";
+		};
+		1A74046D1ECAD9AA0014ACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A7404451ECAD9AA0014ACC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A74044C1ECAD9AA0014ACC5;
+			remoteInfo = "EPCPhotoMobile-CompressionDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A74044D1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EPCPhotoMobile-CompressionDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7404501ECAD9AA0014ACC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A7404521ECAD9AA0014ACC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A7404551ECAD9AA0014ACC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A7404571ECAD9AA0014ACC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A74045A1ECAD9AA0014ACC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A74045C1ECAD9AA0014ACC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7404611ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPCPhotoMobile-CompressionDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7404651ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCPhotoMobile_CompressionDemoTests.swift; sourceTree = "<group>"; };
+		1A7404671ECAD9AA0014ACC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A74046C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPCPhotoMobile-CompressionDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A7404701ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCPhotoMobile_CompressionDemoUITests.swift; sourceTree = "<group>"; };
+		1A7404721ECAD9AA0014ACC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A74044A1ECAD9AA0014ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74045E1ECAD9AA0014ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7404691ECAD9AA0014ACC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A7404441ECAD9AA0014ACC5 = {
+			isa = PBXGroup;
+			children = (
+				1A74044F1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */,
+				1A7404641ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests */,
+				1A74046F1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests */,
+				1A74044E1ECAD9AA0014ACC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A74044E1ECAD9AA0014ACC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A74044D1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo.app */,
+				1A7404611ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests.xctest */,
+				1A74046C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A74044F1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A7404501ECAD9AA0014ACC5 /* AppDelegate.swift */,
+				1A7404521ECAD9AA0014ACC5 /* ViewController.swift */,
+				1A7404541ECAD9AA0014ACC5 /* Main.storyboard */,
+				1A7404571ECAD9AA0014ACC5 /* Assets.xcassets */,
+				1A7404591ECAD9AA0014ACC5 /* LaunchScreen.storyboard */,
+				1A74045C1ECAD9AA0014ACC5 /* Info.plist */,
+			);
+			path = "EPCPhotoMobile-CompressionDemo";
+			sourceTree = "<group>";
+		};
+		1A7404641ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7404651ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift */,
+				1A7404671ECAD9AA0014ACC5 /* Info.plist */,
+			);
+			path = "EPCPhotoMobile-CompressionDemoTests";
+			sourceTree = "<group>";
+		};
+		1A74046F1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A7404701ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift */,
+				1A7404721ECAD9AA0014ACC5 /* Info.plist */,
+			);
+			path = "EPCPhotoMobile-CompressionDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A74044C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7404751ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemo" */;
+			buildPhases = (
+				1A7404491ECAD9AA0014ACC5 /* Sources */,
+				1A74044A1ECAD9AA0014ACC5 /* Frameworks */,
+				1A74044B1ECAD9AA0014ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EPCPhotoMobile-CompressionDemo";
+			productName = "EPCPhotoMobile-CompressionDemo";
+			productReference = 1A74044D1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A7404601ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A7404781ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoTests" */;
+			buildPhases = (
+				1A74045D1ECAD9AA0014ACC5 /* Sources */,
+				1A74045E1ECAD9AA0014ACC5 /* Frameworks */,
+				1A74045F1ECAD9AA0014ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A7404631ECAD9AA0014ACC5 /* PBXTargetDependency */,
+			);
+			name = "EPCPhotoMobile-CompressionDemoTests";
+			productName = "EPCPhotoMobile-CompressionDemoTests";
+			productReference = 1A7404611ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A74046B1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A74047B1ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoUITests" */;
+			buildPhases = (
+				1A7404681ECAD9AA0014ACC5 /* Sources */,
+				1A7404691ECAD9AA0014ACC5 /* Frameworks */,
+				1A74046A1ECAD9AA0014ACC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A74046E1ECAD9AA0014ACC5 /* PBXTargetDependency */,
+			);
+			name = "EPCPhotoMobile-CompressionDemoUITests";
+			productName = "EPCPhotoMobile-CompressionDemoUITests";
+			productReference = 1A74046C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A7404451ECAD9AA0014ACC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ivy;
+				TargetAttributes = {
+					1A74044C1ECAD9AA0014ACC5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P278C6Z3YN;
+						ProvisioningStyle = Automatic;
+					};
+					1A7404601ECAD9AA0014ACC5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P278C6Z3YN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A74044C1ECAD9AA0014ACC5;
+					};
+					1A74046B1ECAD9AA0014ACC5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = P278C6Z3YN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A74044C1ECAD9AA0014ACC5;
+					};
+				};
+			};
+			buildConfigurationList = 1A7404481ECAD9AA0014ACC5 /* Build configuration list for PBXProject "EPCPhotoMobile-CompressionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A7404441ECAD9AA0014ACC5;
+			productRefGroup = 1A74044E1ECAD9AA0014ACC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A74044C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */,
+				1A7404601ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoTests */,
+				1A74046B1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A74044B1ECAD9AA0014ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A74045B1ECAD9AA0014ACC5 /* LaunchScreen.storyboard in Resources */,
+				1A7404581ECAD9AA0014ACC5 /* Assets.xcassets in Resources */,
+				1A7404561ECAD9AA0014ACC5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74045F1ECAD9AA0014ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74046A1ECAD9AA0014ACC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7404491ECAD9AA0014ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7404531ECAD9AA0014ACC5 /* ViewController.swift in Sources */,
+				1A7404511ECAD9AA0014ACC5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A74045D1ECAD9AA0014ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7404661ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A7404681ECAD9AA0014ACC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7404711ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A7404631ECAD9AA0014ACC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A74044C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */;
+			targetProxy = 1A7404621ECAD9AA0014ACC5 /* PBXContainerItemProxy */;
+		};
+		1A74046E1ECAD9AA0014ACC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A74044C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */;
+			targetProxy = 1A74046D1ECAD9AA0014ACC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A7404541ECAD9AA0014ACC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A7404551ECAD9AA0014ACC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A7404591ECAD9AA0014ACC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A74045A1ECAD9AA0014ACC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A7404731ECAD9AA0014ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A7404741ECAD9AA0014ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A7404761ECAD9AA0014ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A7404771ECAD9AA0014ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A7404791ECAD9AA0014ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCPhotoMobile-CompressionDemo.app/EPCPhotoMobile-CompressionDemo";
+			};
+			name = Debug;
+		};
+		1A74047A1ECAD9AA0014ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPCPhotoMobile-CompressionDemo.app/EPCPhotoMobile-CompressionDemo";
+			};
+			name = Release;
+		};
+		1A74047C1ECAD9AA0014ACC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "EPCPhotoMobile-CompressionDemo";
+			};
+			name = Debug;
+		};
+		1A74047D1ECAD9AA0014ACC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P278C6Z3YN;
+				INFOPLIST_FILE = "EPCPhotoMobile-CompressionDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epc.EPCPhotoMobile-CompressionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "EPCPhotoMobile-CompressionDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A7404481ECAD9AA0014ACC5 /* Build configuration list for PBXProject "EPCPhotoMobile-CompressionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7404731ECAD9AA0014ACC5 /* Debug */,
+				1A7404741ECAD9AA0014ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A7404751ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7404761ECAD9AA0014ACC5 /* Debug */,
+				1A7404771ECAD9AA0014ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A7404781ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A7404791ECAD9AA0014ACC5 /* Debug */,
+				1A74047A1ECAD9AA0014ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A74047B1ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A74047C1ECAD9AA0014ACC5 /* Debug */,
+				1A74047D1ECAD9AA0014ACC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A7404451ECAD9AA0014ACC5 /* Project object */;
+}

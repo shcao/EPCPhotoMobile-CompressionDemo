@@ -22,7 +22,12 @@ class ViewController: UIViewController {
         let theImageView = UIImageView()
         //compress image size
         let image = UIImage(named: "IMG_1023.JPG")
-        let imageData = UIImageJPEGRepresentation(image!, 0.5)
+        let originImageData = UIImageJPEGRepresentation(image!, 1)
+        var size1 = originImageData?.count
+        print("original image size in KB", size1!/1024)
+        let imageData = UIImageJPEGRepresentation(image!, 0.3)
+        var size2 = imageData?.count
+        print("compressed image size in KB", size2!/1024)
         let newImage = UIImage(data:imageData!,scale:1.0)
         
         //resize image

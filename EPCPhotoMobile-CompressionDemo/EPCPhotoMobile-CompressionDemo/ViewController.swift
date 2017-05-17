@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     let imageView: UIImageView = {
         let theImageView = UIImageView()
         //compress image size
-        let image = UIImage(named: "IMG_1023.JPG")
+        let image = UIImage(named: "Imageposioncnvhvn.JPG")
         let originImageData = UIImageJPEGRepresentation(image!, 1)
         var size1 = originImageData?.count
         print("original image size in KB", size1!/1024)

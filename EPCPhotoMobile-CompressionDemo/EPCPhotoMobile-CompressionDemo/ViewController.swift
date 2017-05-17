@@ -24,6 +24,7 @@ class ViewController: UIViewController {
 //        theImageView.image = UIImage(named: "IMG_1023.JPG")
         let imageData = UIImageJPEGRepresentation(image!, 0.7)
         theImageView.image = UIImage(data:imageData!,scale:1.0)
+        UIGraphicsBeginImageContext(CGSize(width:2880.0,height:2880.0))
         theImageView.translatesAutoresizingMaskIntoConstraints = false
         return theImageView
     }()

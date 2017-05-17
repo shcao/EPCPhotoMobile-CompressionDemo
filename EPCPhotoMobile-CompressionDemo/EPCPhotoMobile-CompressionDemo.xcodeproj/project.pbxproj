@@ -14,6 +14,7 @@
 		1A74045B1ECAD9AA0014ACC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A7404591ECAD9AA0014ACC5 /* LaunchScreen.storyboard */; };
 		1A7404661ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404651ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoTests.swift */; };
 		1A7404711ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7404701ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift */; };
+		1ACDB9BE1ECC027800444038 /* IMG_1023.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1ACDB9BD1ECC027800444038 /* IMG_1023.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A74046C1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EPCPhotoMobile-CompressionDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7404701ECAD9AA0014ACC5 /* EPCPhotoMobile_CompressionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPCPhotoMobile_CompressionDemoUITests.swift; sourceTree = "<group>"; };
 		1A7404721ECAD9AA0014ACC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ACDB9BD1ECC027800444038 /* IMG_1023.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1023.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		1A74044F1ECAD9AA0014ACC5 /* EPCPhotoMobile-CompressionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1A8CE26C1ECBFC860078C2EF /* image */,
 				1A7404501ECAD9AA0014ACC5 /* AppDelegate.swift */,
 				1A7404521ECAD9AA0014ACC5 /* ViewController.swift */,
 				1A7404541ECAD9AA0014ACC5 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				1A7404721ECAD9AA0014ACC5 /* Info.plist */,
 			);
 			path = "EPCPhotoMobile-CompressionDemoUITests";
+			sourceTree = "<group>";
+		};
+		1A8CE26C1ECBFC860078C2EF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1ACDB9BD1ECC027800444038 /* IMG_1023.JPG */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A74045B1ECAD9AA0014ACC5 /* LaunchScreen.storyboard in Resources */,
+				1ACDB9BE1ECC027800444038 /* IMG_1023.JPG in Resources */,
 				1A7404581ECAD9AA0014ACC5 /* Assets.xcassets in Resources */,
 				1A7404561ECAD9AA0014ACC5 /* Main.storyboard in Resources */,
 			);
@@ -516,6 +528,7 @@
 				1A7404771ECAD9AA0014ACC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A7404781ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				1A74047A1ECAD9AA0014ACC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A74047B1ECAD9AA0014ACC5 /* Build configuration list for PBXNativeTarget "EPCPhotoMobile-CompressionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				1A74047D1ECAD9AA0014ACC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

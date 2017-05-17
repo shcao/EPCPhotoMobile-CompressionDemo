@@ -20,12 +20,35 @@ class ViewController: UIViewController {
 
     let imageView: UIImageView = {
         let theImageView = UIImageView()
+        //compress image size
         let image = UIImage(named: "IMG_1023.JPG")
-//        theImageView.image = UIImage(named: "IMG_1023.JPG")
-        let imageData = UIImageJPEGRepresentation(image!, 0.7)
-        theImageView.image = UIImage(data:imageData!,scale:1.0)
-        UIGraphicsBeginImageContext(CGSize(width:2880.0,height:2880.0))
+        let imageData = UIImageJPEGRepresentation(image!, 0.5)
+        let newImage = UIImage(data:imageData!,scale:1.0)
+        
+        //resize image
+        let imageSize = newImage?.size
+        let targetWidth = CGFloat(2880.0)
+        
+        let width = imageSize?.width
+        let height = imageSize?.height
+        
+        let targetHeight = (targetWidth / width!) * height!
+        
+        let sizeChange = CGSize(width:targetWidth, height:targetHeight)
+        
+        UIGraphicsBeginImageContext(sizeChange)
+        
+        let rect = CGRect(origin: CGPoint(x:0.0, y:0.0), size: sizeChange)
+        
+        newImage?.draw(in:rect)
+        
+        let resizeImage = UIGraphicsGetImageFromCurrentImageContext()
+        
+        UIGraphicsEndImageContext()
+        
+        theImageView.image = resizeImage
         theImageView.translatesAutoresizingMaskIntoConstraints = false
+       
         return theImageView
     }()
     
